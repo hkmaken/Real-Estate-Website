@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    color: darkblue;
+}
+.phone {
+  border-radius: 0px;
+  color: black;
+  margin-bottom: 17px;
+  background-color: white;
+  padding: 50px;
+  float: left;
+  width: 30%;
+}
+
+
+.email {
+  border-radius: 0px;
+  margin-left: 17px;
+  margin-bottom: 17px;
+  color: black;
+  background-color:white;
+  padding: 50px;
+  float: left;
+  width: 30%;
+}
+
+.fright {
+  border-radius: 0px;
+  margin-left: 97px;
+  margin-bottom: 17px;
+  color: blue;
+  background-color: white;
+  padding: 10px;
+  float: left;
+  width: 30%;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+

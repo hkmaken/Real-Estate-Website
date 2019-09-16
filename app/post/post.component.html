@@ -1,0 +1,60 @@
+<div>
+        <footer class="footer">
+            <div class="fleft">
+
+
+                <img src="../assets/images/mylogo.PNG" id="banner-logo" alt="Landing Page" width="100%" />
+                        
+
+                <p class="footer-links">
+                    <a routerLink="/Home">Home</a>
+                    ·
+                    <a routerLink="/About">About</a>
+                    ·
+                    <a routerLink="/Team">Team</a>
+                    ·
+                    <a routerLink="/Blog">Blog</a>
+                    ·
+                    <a routerLink="/Services">Services</a>
+                    ·
+                    <a routerLink="/Contact">Contact</a>
+                </p>
+
+                <p class="footer-company-name">{{post.tagline}} &copy; {{post.year}}</p>
+                </div>
+            
+            <div class="fcenter">
+            <h4>{{post.addr}}</h4><br>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                   <a href="https://www.google.com/maps/@30.0444314,72.3370876,13z?hl=en">  {{post.address}}
+                </a></div>
+<br><br>
+                <div>
+                    <i class="fa fa-phone"></i>
+                      {{post.num}}
+                </div>
+<br><br>
+                <div>
+                    <i class="fa fa-envelope"></i><a href="mailto:alqamarestates@gmail.com">                                       {{post.mail}}</a>
+                </div>
+</div>
+
+            <div class="fright">
+                <h4>{{post.about}}</h4>
+                <p class="footer-company-about">
+                    {{post.intro}}
+                </p><br>
+               <!--
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+                End of Logo-->
+</div>
+  
+        </footer>

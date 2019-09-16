@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+#more {display: none;}
+
+/* Header/Blog Title */
+.header h2 {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  color: darkblue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  color: gray;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.img1{
+  width: 70%;
+  align: left;
+}
+.img2{
+  width: 70%;
+}
+.img3{
+  width: 100%;
+  align: left;
+}
+p{
+  text-align: left;
+}
+
+h4{
+  text-align: left;
+  text-type: bold;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   text-align: center;
+
+}
+
+h5 {
+   background-color: white;
+   color: darkblue;
+   padding: 0px;
+   margin-top: 20px;
+   text-align: left;
+
+}
+
+/* Add a card effect for articles */
+.card1 {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   text-align: center;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
